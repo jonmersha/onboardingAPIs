@@ -1,0 +1,52 @@
+<S:Envelope xmlns:S="http://schemas.xmlsoap.org/soap/envelope/">
+   <S:Body>
+      <ns8:CUSTCREATEResponse xmlns:ns8="http://temenos.com/CUSTONBRD" xmlns:ns7="http://temenos.com/CUSTOMERINPUT" xmlns:ns6="http://temenos.com/ACCOUNTOPENPOC" xmlns:ns5="http://temenos.com/CUSTOMER" xmlns:ns4="http://temenos.com/CUSTOMERNAU" xmlns:ns3="http://temenos.com/ACCOUNT" xmlns:ns2="http://temenos.com/ACCOUNTAUTH">
+         <Status>
+            <transactionId>1008205193</transactionId>
+            <messageId>ACTEDDb46</messageId>
+            <successIndicator>Success</successIndicator>
+            <application>CUSTOMER</application>
+         </Status>
+         <CUSTOMERType id="1008205193">
+            <ns5:MNEMONIC>Y938941859</ns5:MNEMONIC>
+            <ns5:gSHORTNAME>
+               <ns5:SHORTNAME>Zelalem</ns5:SHORTNAME>
+            </ns5:gSHORTNAME>
+            <ns5:gNAME1>
+               <ns5:NAME1>Zelalem Ayano</ns5:NAME1>
+            </ns5:gNAME1>
+            <ns5:SECTOR>1300</ns5:SECTOR>
+            <ns5:ACCOUNTOFFICER>1</ns5:ACCOUNTOFFICER>
+            <ns5:INDUSTRY>1311</ns5:INDUSTRY>
+            <ns5:TARGET>20</ns5:TARGET>
+            <ns5:NATIONALITY>ET</ns5:NATIONALITY>
+            <ns5:CUSTOMERSTATUS>305</ns5:CUSTOMERSTATUS>
+            <ns5:RESIDENCE>ET</ns5:RESIDENCE>
+            <ns5:LANGUAGE>1</ns5:LANGUAGE>
+            <ns5:COMPANYBOOK>ET0010001</ns5:COMPANYBOOK>
+            <ns5:CLSCPARTY>NO</ns5:CLSCPARTY>
+            <ns5:TITLE>MR</ns5:TITLE>
+            <ns5:GIVENNAMES>Zelalem Ayano</ns5:GIVENNAMES>
+            <ns5:GENDER>MALE</ns5:GENDER>
+            <ns5:MARITALSTATUS>MARRIED</ns5:MARITALSTATUS>
+            <ns5:AMLCHECK>NULL</ns5:AMLCHECK>
+            <ns5:AMLRESULT>NULL</ns5:AMLRESULT>
+            <ns5:INTERNETBANKINGSERVICE>NULL</ns5:INTERNETBANKINGSERVICE>
+            <ns5:MOBILEBANKINGSERVICE>NULL</ns5:MOBILEBANKINGSERVICE>
+            <ns5:gOVERRIDE>
+               <ns5:OVERRIDE>INTRO/CUS*203 FROM 1008205193 NOT RECEIVED</ns5:OVERRIDE>
+            </ns5:gOVERRIDE>
+            <ns5:RECORDSTATUS>INAU</ns5:RECORDSTATUS>
+            <ns5:CURRNO>1</ns5:CURRNO>
+            <ns5:gINPUTTER>
+               <ns5:INPUTTER>52289_MMTUSER__WS___OFS_TWS</ns5:INPUTTER>
+            </ns5:gINPUTTER>
+            <ns5:gDATETIME>
+               <ns5:DATETIME>30 AUG 2019 11:37:15</ns5:DATETIME>
+            </ns5:gDATETIME>
+            <ns5:COCODE>ET0010001</ns5:COCODE>
+            <ns5:DEPTCODE>1</ns5:DEPTCODE>
+         </CUSTOMERType>
+      </ns8:CUSTCREATEResponse>
+   </S:Body>
+</S:Envelope>

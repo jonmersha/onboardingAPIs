@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+    <S:Envelope xmlns:S="http://schemas.xmlsoap.org/soap/envelope/">
+        <S:Body>
+            <ns8:CUSTCREATEResponse xmlns:ns8="http://temenos.com/CUSTONBRD" xmlns:ns7="http://temenos.com/CUSTOMERINPUT" xmlns:ns6="http://temenos.com/ACCOUNTOPENPOC" xmlns:ns5="http://temenos.com/CUSTOMER" xmlns:ns4="http://temenos.com/CUSTOMERNAU" xmlns:ns3="http://temenos.com/ACCOUNT" xmlns:ns2="http://temenos.com/ACCOUNTAUTH">
+                <Status>
+                    <transactionId>1009554729</transactionId>
+                    <messageId>1234fqwe</messageId>
+                    <successIndicator>T24Error</successIndicator>
+                    <application>CUSTOMER</application>
+                    <messages>MNEMONIC:1:1=FIRST CHAR. IS INVALID</messages>
+                </Status>
+            </ns8:CUSTCREATEResponse>
+        </S:Body>
+    </S:Envelope>
